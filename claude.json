@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "claude.ai",
+        "anthropic.com",
+        "anthropic.ai",
+        "api.anthropic.com",
+        "cdn.anthropic.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".claude.ai",
+        ".anthropic.com",
+        ".anthropic.ai"
+      ]
+    }
+  ]
+}
