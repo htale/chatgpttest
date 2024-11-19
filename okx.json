@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "okx.com",
+        "okex.com",
+        "okex.me",
+        "okx.ch",
+        "okex.org",
+        "okex.cc",
+        "okg.com",
+        "oklink.com",
+        "okex.foundation",
+        "okx.business",
+        "okx.community",
+        "okx.dev",
+        "okx.exchange",
+        "okx.fan",
+        "okx.group",
+        "okx.land",
+        "okx.market",
+        "okx.network",
+        "okx.one",
+        "okx.plus",
+        "okx.pro",
+        "okx.services",
+        "okx.shop",
+        "okx.social",
+        "okx.team",
+        "okx.tools",
+        "okx.world",
+        "okx.zone"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".okx.com",
+        ".okex.com",
+        ".okx.ch"
+      ]
+    }
+  ]
+}
