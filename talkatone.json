@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "talkatone.com",
+        "api.talkatone.com",
+        "mobile.talkatone.com",
+        "auth.talkatone.com",
+        "help.talkatone.com",
+        "web.talkatone.com",
+        "ads.talkatone.com",
+        "www.talkatone.com",
+        "app.talkatone.com",
+        "talkatone.zendesk.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".talkatone.com"
+      ]
+    },
+    {
+      "domain_keyword": [
+        "talkatone"
+      ]
+    }
+  ]
+}
