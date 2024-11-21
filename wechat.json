@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "weixin.qq.com",
+        "wx.qq.com",
+        "servicewechat.com",
+        "wechat.com",
+        "wechatos.net",
+        "wegame.com.cn",
+        "weixin.com",
+        "wxs.qq.com",
+        "weixinbridge.com",
+        "qq.com",
+        "qlogo.cn",
+        "qpic.cn",
+        "idqqimg.com",
+        "wxapp.tc.qq.com",
+        "vweixinthumb.tc.qq.com",
+        "wxsnsdythumb.wxs.qq.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".weixin.qq.com",
+        ".wx.qq.com",
+        ".servicewechat.com",
+        ".wechat.com",
+        ".wegame.com.cn",
+        ".weixin.com"
+      ]
+    }
+  ]
+}
