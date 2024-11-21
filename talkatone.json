@@ -9,12 +9,37 @@
         "auth.talkatone.com",
         "help.talkatone.com",
         "web.talkatone.com",
-        "app.talkatone.com"
+        "app.talkatone.com",
+        "voice.talkatone.com",
+        "status.talkatone.com",
+        "cdn.talkatone.com",
+        "assets.talkatone.com",
+        "static.talkatone.com",
+        "bandwidth.com",           // Talkatone使用的语音服务提供商
+        "api.bandwidth.com",
+        "sip.bandwidth.com",
+        "stun.bandwidth.com",
+        "turn.bandwidth.com",
+        "webrtc.bandwidth.com",
+        "socket.bandwidth.com"
       ]
     },
     {
       "domain_suffix": [
-        ".talkatone.com"
+        ".talkatone.com",
+        ".bandwidth.com"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "35.156.231.0/24",  // Talkatone的一些IP范围
+        "3.123.50.0/24",
+        "54.93.124.0/24"
+      ]
+    },
+    {
+      "port_range": [
+        "16384-32768"  // VoIP常用端口范围
       ]
     }
   ]
