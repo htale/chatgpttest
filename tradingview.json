@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "tradingview.com",
+        "tradingview.mobi",
+        "tradingview.cn",
+        "pine-facade.tradingview.com",
+        "s.tradingview.com",
+        "s3.tradingview.com",
+        "static.tradingview.com",
+        "charts.tradingview.com",
+        "data.tradingview.com",
+        "scanner.tradingview.com",
+        "widgetdata.tradingview.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".tradingview.com",
+        ".tradingview.mobi",
+        ".tradingview.cn",
+        ".tradingview-cdn.net"
+      ]
+    }
+  ]
+}
