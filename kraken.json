@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "kraken.com",
+        "api.kraken.com",
+        "trade.kraken.com",
+        "futures.kraken.com",
+        "blog.kraken.com",
+        "support.kraken.com",
+        "status.kraken.com",
+        "pro.kraken.com",
+        "secure.kraken.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        ".kraken.com"
+      ]
+    }
+  ]
+}
