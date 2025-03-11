@@ -10,6 +10,7 @@
         "cdn.anthropic.com",
         "perplexity.ai",
         "cdn.perplexity.ai",
+        "perplexity.com",        
         "www.perplexity.ai",        
         "api.perplexity.ai",
         "pplx-res.cloudinary.com",
@@ -22,6 +23,7 @@
         ".anthropic.com",
         ".anthropic.ai",
         ".perplexity.ai",
+        ".perplexity.com",        
         ".pplx.ai",
         ".cloudinary.com",        
         ".anthropic.ai"
