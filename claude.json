@@ -20,10 +20,10 @@
       "domain_suffix": [
         ".claude.ai",
         ".anthropic.com",
-        ".anthropic.ai,
-        ".perplexity.ai,
-        ".pplx.ai,
-        ".cloudinary.com,        
+        ".anthropic.ai",
+        ".perplexity.ai",
+        ".pplx.ai",
+        ".cloudinary.com",        
         ".anthropic.ai"
       ]
     }
