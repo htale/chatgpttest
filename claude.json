@@ -7,13 +7,23 @@
         "anthropic.com",
         "anthropic.ai",
         "api.anthropic.com",
-        "cdn.anthropic.com"
+        "cdn.anthropic.com",
+        "perplexity.ai",
+        "cdn.perplexity.ai",
+        "www.perplexity.ai",        
+        "api.perplexity.ai",
+        "pplx-res.cloudinary.com",
+        "search.perplexity.ai"        
       ]
     },
     {
       "domain_suffix": [
         ".claude.ai",
         ".anthropic.com",
+        ".anthropic.ai,
+        ".perplexity.ai,
+        ".pplx.ai,
+        ".cloudinary.com,        
         ".anthropic.ai"
       ]
     }
