@@ -72,6 +72,8 @@ ulimit -u 655360
 
 # 删除自身脚本（可注释掉）
 # rm -f "$0"
+# 将自身脚本改名为 tcp-window.sh.bak（或当前文件名.bak）
+mv -- "$0" "${0%.sh}.sh.bak"
 
 # 重启提示
 echo "✅ Reality & Hysteria2 网络栈优化已完成。建议立即重启以完全生效。"
