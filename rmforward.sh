@@ -14,17 +14,17 @@ done
 
 # 获取本地源端口
 while true; do
-    read -rp "请输入本地源端口 (如: 50102): " local_port
+    read -rp "请输入本地源端口 (如: 88882): " local_port
     [[ "$local_port" =~ ^[0-9]+$ ]] && break
     echo "⚠️ 请输入有效的端口号"
 done
 
 # 获取目标服务器 IP
-read -rp "请输入目标服务器 IP (如: 38.49.57.71): " target_ip
+read -rp "请输入目标服务器 IP (如: 8.8.8.8): " target_ip
 
 # 获取目标端口
 while true; do
-    read -rp "请输入目标端口 (如: 10535): " target_port
+    read -rp "请输入目标端口 (如: 77772): " target_port
     [[ "$target_port" =~ ^[0-9]+$ ]] && break
     echo "⚠️ 请输入有效的端口号"
 done
