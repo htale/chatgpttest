@@ -159,6 +159,9 @@ cat <<'END'
  3. nc -vz [目标IP] [端口]
  4. systemctl status iptables-restore.service
  5. systemctl status netfilter-persistent
+ 6.iptables -t nat -D POSTROUTING -d 8.8.8.8 -p tcp --dport 18888 -j MASQUERADE
+ 7.iptables -t nat -D POSTROUTING -d 8.8.8.8 -p udp --dport 28888 -j MASQUERADE
+ 8.iptables -t nat -D PREROUTING 1
 END
 
 
