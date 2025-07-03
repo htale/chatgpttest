@@ -1,0 +1,25 @@
+准备工作
+
+准备两台 VPS，一台用来做中转机、一台用来做落地机
+提前在落地机部署对应的节点，本次演示提前在落地机中部署了3X-UI面板
+提前做好中转机和落地架的域名解析
+1、一键申请SSL证书：【点击进入】https://github.com/slobys/docker
+
+bash <(curl -fsSL https://raw.githubusercontent.com/slobys/SSL-Renewal/main/acme.sh)
+Copy
+2、开源项目Nodepass：【点击进入】https://github.com/yosebyte/nodepass
+
+Nodepass面板项目：【点击进入】https://github.com/NodePassProject/npsh
+主程序安装
+bash <(wget -qO- https://run.nodepass.eu/np.sh)
+Copy
+部署Nodepass面板
+bash <(wget -qO- https://run.nodepass.eu/dash.sh)
+Copy
+3、一键安装脚本
+
+3X-UI一键脚本
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+Copy
+Sing-Box一键脚本
+bash <(wget -qO- https://raw.githubusercontent.com/fscarmen/sing-box/main/sing-box.sh)
