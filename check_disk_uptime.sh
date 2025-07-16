@@ -1,36 +1,37 @@
 #!/bin/bash
 
-echo "========= 硬盘运行时间检测脚本 ========="
+echo "========= 改进版硬盘运行时间检测脚本 ========="
 echo ""
 
-# 检查 smartmontools 是否安装
+# 检查 smartctl 是否存在
 if ! command -v smartctl &> /dev/null; then
-    echo "smartctl 未安装，正在尝试安装..."
+    echo "❌ smartctl 未安装，正在尝试安装 smartmontools..."
     if [ -f /etc/debian_version ]; then
         sudo apt update && sudo apt install -y smartmontools
     elif [ -f /etc/redhat-release ]; then
         sudo yum install -y smartmontools
     else
-        echo "未知系统，请手动安装 smartmontools"
+        echo "❌ 无法识别系统类型，请手动安装 smartmontools 后重试"
         exit 1
     fi
 fi
 
 echo ""
-echo "🔍 正在检测 SATA 和 NVMe 硬盘..."
+echo "🔍 开始扫描磁盘..."
 
-# 检查所有硬盘（SATA）
-for disk in /dev/sd?; do
-    echo ""
-    echo "=== 检测 $disk ==="
-    smartctl -i -A "$disk" | grep -E "Model|Serial|Power_On_Hours"
-done
+# 支持的磁盘设备类型
+devices=$(lsblk -ndo NAME,TYPE | awk '$2 == "disk" { print "/dev/" $1 }')
 
-# 检查所有 NVMe 硬盘
-for nvme in /dev/nvme?n?; do
+for dev in $devices; do
     echo ""
-    echo "=== 检测 $nvme (NVMe) ==="
-    smartctl -i -A "$nvme" | grep -E "Model|Serial|Power_On Hours"
+    echo "=== 检测 $dev ==="
+
+    # 检测是否为NVMe
+    if [[ "$dev" == *nvme* ]]; then
+        sudo smartctl -i -A "$dev" | grep -E "Model Number|Serial Number|Power_On Hours"
+    else
+        sudo smartctl -i -A "$dev" | grep -E "Model|Serial|Power_On_Hours"
+    fi
 done
 
 echo ""
