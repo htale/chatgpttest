@@ -1,13 +1,18 @@
-[Rule]
-DOMAIN-SUFFIX,tradingview.com,🚀默认代理
-DOMAIN-SUFFIX,tradestudio.com,🚀默认代理
-DOMAIN-SUFFIX,tvcdn.net,🚀默认代理
-DOMAIN,tradingview.com,🚀默认代理
-DOMAIN,www.tradingview.com,🚀默认代理
-DOMAIN,scanner.tradingview.com,🚀默认代理
-DOMAIN,tvce.tradingview.com,🚀默认代理
-DOMAIN-SUFFIX,tradingview.net,🚀默认代理
-DOMAIN-SUFFIX,tvbs.io,🚀默认代理
-DOMAIN-SUFFIX,push.tradingview.com,🚀默认代理
-IP-CIDR,52.89.243.79/32,🚀默认代理,no-resolve
-IP-CIDR,52.88.88.58/32,🚀默认代理,no-resolve
+# NAME: TradingView
+# AUTHOR: ChatGPT (based on format)
+# REPO: https://github.com/htale/tradingview
+# UPDATED: 2025-07-18 21:00:00
+# DOMAIN-SUFFIX: 8
+# TOTAL: 11
+
+DOMAIN-SUFFIX,tradingview.com
+DOMAIN-SUFFIX,tradestudio.com
+DOMAIN-SUFFIX,tradingview.net
+DOMAIN-SUFFIX,tvcdn.net
+DOMAIN-SUFFIX,tvbs.io
+DOMAIN-SUFFIX,push.tradingview.com
+DOMAIN,www.tradingview.com
+DOMAIN,scanner.tradingview.com
+DOMAIN,tvce.tradingview.com
+IP-CIDR,52.89.243.79/32,no-resolve
+IP-CIDR,52.88.88.58/32,no-resolve
