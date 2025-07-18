@@ -1,0 +1,13 @@
+[Rule]
+DOMAIN-SUFFIX,tradingview.com,🚀默认代理
+DOMAIN-SUFFIX,tradestudio.com,🚀默认代理
+DOMAIN-SUFFIX,tvcdn.net,🚀默认代理
+DOMAIN,tradingview.com,🚀默认代理
+DOMAIN,www.tradingview.com,🚀默认代理
+DOMAIN,scanner.tradingview.com,🚀默认代理
+DOMAIN,tvce.tradingview.com,🚀默认代理
+DOMAIN-SUFFIX,tradingview.net,🚀默认代理
+DOMAIN-SUFFIX,tvbs.io,🚀默认代理
+DOMAIN-SUFFIX,push.tradingview.com,🚀默认代理
+IP-CIDR,52.89.243.79/32,🚀默认代理,no-resolve
+IP-CIDR,52.88.88.58/32,🚀默认代理,no-resolve
