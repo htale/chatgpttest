@@ -1,0 +1,48 @@
+# NAME: Binance
+# AUTHOR: blackmatrix7 (extended by ChatGPT)
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2025-09-14 18:00:00
+# DOMAIN-SUFFIX: 40
+# TOTAL: 40
+
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.org
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binance.charity
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,binance.sg
+DOMAIN-SUFFIX,binance.co.uk
+DOMAIN-SUFFIX,binance.de
+DOMAIN-SUFFIX,binance.fr
+DOMAIN-SUFFIX,binance.it
+DOMAIN-SUFFIX,binance.nl
+DOMAIN-SUFFIX,binance.es
+DOMAIN-SUFFIX,binancezh.be
+DOMAIN-SUFFIX,binancezh.cc
+DOMAIN-SUFFIX,binancezh.co
+DOMAIN-SUFFIX,binancezh.info
+DOMAIN-SUFFIX,binancezh.ink
+DOMAIN-SUFFIX,binancezh.kim
+DOMAIN-SUFFIX,binancezh.link
+DOMAIN-SUFFIX,binancezh.live
+DOMAIN-SUFFIX,binancezh.mobi
+DOMAIN-SUFFIX,binancezh.net
+DOMAIN-SUFFIX,binancezh.pro
+DOMAIN-SUFFIX,binancezh.sh
+DOMAIN-SUFFIX,binancezh.top
+DOMAIN-SUFFIX,saasexch.io
+DOMAIN-SUFFIX,binance.im
