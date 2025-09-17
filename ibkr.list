@@ -1,0 +1,20 @@
+# NAME: InteractiveBrokers
+# AUTHOR: ChatGPT
+# REPO: https://github.com/htale/ibkr
+# UPDATED: 2025-09-15 22:45:00
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 10
+# TOTAL: 12
+
+DOMAIN,ibkr.com
+DOMAIN,interactivebrokers.com
+DOMAIN-SUFFIX,ibkr.com
+DOMAIN-SUFFIX,interactivebrokers.com
+DOMAIN-SUFFIX,ibllc.com
+DOMAIN-SUFFIX,ibrokerage.com
+DOMAIN-SUFFIX,ibg.com
+DOMAIN-SUFFIX,ibcdn.com
+DOMAIN-SUFFIX,ibdemos.com
+DOMAIN-SUFFIX,ibweb.com
+DOMAIN-SUFFIX,ibkr.info
+DOMAIN-SUFFIX,ibllc.info
