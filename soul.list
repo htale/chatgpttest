@@ -1,0 +1,30 @@
+# NAME: Soul
+# AUTHOR: 
+# REPO: https://github.com/
+# UPDATED: 2024-03-20
+# Soul 社交软件分流规则
+# 包含：基础 API、静态资源、图片托管及语音视频服务
+
+# >> Soul 官方域名
+DOMAIN-SUFFIX,soulapp.cn
+DOMAIN-SUFFIX,soulapp.it
+DOMAIN-SUFFIX,soulstatic.cn
+DOMAIN-SUFFIX,soul-img.com
+DOMAIN-SUFFIX,soul-app.com
+DOMAIN-SUFFIX,soul-static.com
+
+# >> 关键字匹配
+DOMAIN-KEYWORD,soulapp
+
+# >> 语音/视频通话相关 (通常使用声网或中转)
+DOMAIN-SUFFIX,agora.io
+DOMAIN-SUFFIX,edge.p001.net
+DOMAIN-KEYWORD,netease
+
+# >> 其他第三方组件 (可选，Soul 使用的埋点或上报)
+DOMAIN-SUFFIX,talkingdata.com
+DOMAIN-SUFFIX,umeng.com
+
+# >> IP-CIDR (可选，如果遇到长连接无法连接可启用)
+# IP-CIDR,117.135.0.0/16,no-resolve
+# IP-CIDR,180.163.0.0/16,no-resolve
