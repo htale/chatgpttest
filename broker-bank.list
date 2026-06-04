@@ -1,0 +1,45 @@
+# NAME: Broker-Bank
+# AUTHOR: htale
+# UPDATED: 2026-06-04
+# DESCRIPTION: Longbridge / Futu / ZA Bank / BOCHK / HSBC HK / Charles Schwab
+
+# Longbridge Securities / 长桥证券
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longportapp.com
+DOMAIN-SUFFIX,longportapp.cn
+DOMAIN-SUFFIX,longbridgeapp.com
+
+# Futu Securities / 富途证券 / Futubull / moomoo
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futunn.net
+DOMAIN-SUFFIX,futunn.com.cn
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,moomoo.com.sg
+
+# ZA Bank / ZA Group
+DOMAIN-SUFFIX,zabank.com
+DOMAIN-SUFFIX,zabank.hk
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,bank.za.group
+
+# Bank of China Hong Kong / 中银香港
+DOMAIN-SUFFIX,bochk.com
+DOMAIN-SUFFIX,bochk.com.hk
+DOMAIN-SUFFIX,bocgroup.com
+
+# HSBC / HSBC Hong Kong / 汇丰 / 汇丰香港
+DOMAIN-SUFFIX,hsbc.com
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN-SUFFIX,hsbc.com.cn
+DOMAIN-SUFFIX,hsbcnet.com
+DOMAIN-SUFFIX,hsbcnet.com.hk
+
+# Charles Schwab / 嘉信证券
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,client.schwab.com
+DOMAIN-SUFFIX,schwabcdn.com
+DOMAIN-SUFFIX,schwab.wallst.com
+DOMAIN-SUFFIX,thinkorswim.com
