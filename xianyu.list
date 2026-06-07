@@ -1,0 +1,68 @@
+# NAME: XianYu
+# AUTHOR: htale
+# UPDATED: 2026-06-07
+# DESCRIPTION: XianYu / Goofish / IdleFish force routing list for Loon.
+# NOTE: This is a wide test list. It includes Alibaba shared API/CDN and ASN rules
+# because the XianYu app may use Alibaba HTTPDNS or direct IP connections.
+
+# XianYu / Goofish core
+DOMAIN-SUFFIX,xianyu.mobi
+DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,goofish.pro
+DOMAIN-SUFFIX,2.taobao.com
+DOMAIN-SUFFIX,fleamarket.taobao.com
+DOMAIN-KEYWORD,xianyu
+DOMAIN-KEYWORD,goofish
+DOMAIN-KEYWORD,idlefish
+
+# Taobao mobile API used by XianYu
+DOMAIN-SUFFIX,m.taobao.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,tbcdn.cn
+DOMAIN-SUFFIX,tmall.com
+
+# Alibaba CDN / tracking / SDK
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alibabausercontent.com
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alibaba-inc.com
+DOMAIN-SUFFIX,aliapp.org
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN-SUFFIX,cnzz.com
+
+# Alibaba Cloud / app services
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,aliyun-inc.com
+DOMAIN-SUFFIX,alibabacloud.com
+DOMAIN-SUFFIX,alibabacloud.com.cn
+
+# Payment / logistics / location dependencies
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,cainiao.com
+DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,autonavi.com
+
+# UC/Quark SDK dependencies sometimes used by Alibaba apps
+DOMAIN-SUFFIX,uc.cn
+DOMAIN-SUFFIX,ucweb.com
+
+# User-Agent based fallback. Effective only when Loon can see HTTP metadata.
+USER-AGENT,*IdleFish*
+USER-AGENT,*idlefish*
+USER-AGENT,*XianYu*
+USER-AGENT,*xianyu*
+USER-AGENT,*Goofish*
+USER-AGENT,*goofish*
+USER-AGENT,*fleamarket*
+USER-AGENT,*com.taobao.idlefish*
+
+# Alibaba/Taobao ASN fallback for direct-IP or HTTPDNS traffic.
+# This can also match other Alibaba/Taobao traffic while the XianYu group is set to a proxy node.
+IP-ASN,24429,no-resolve
+IP-ASN,37963,no-resolve
+IP-ASN,45102,no-resolve
