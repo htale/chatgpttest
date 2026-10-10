@@ -1,0 +1,9 @@
+#!name = Paga - Loon
+#!desc = 适配原 Paga 响应脚本，修改客户端资料状态和功能开关；不代表完成身份验证或成功开卡。
+#!homepage = https://github.com/niuniujun-argun/Scripy/tree/main/Paga
+
+[Script]
+http-response ^https:\/\/www\.mypaga\.com\/paga-webservices\/customer-mobile\/secured\/getUserData\/v3(?:\?.*)?$ script-path=https://raw.githubusercontent.com/niuniujun-argun/Scripy/main/Paga/JavaScript/card.js,requires-body=true,timeout=10,tag=Paga,enable=true
+
+[Mitm]
+hostname = www.mypaga.com
